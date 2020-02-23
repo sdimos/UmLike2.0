@@ -1,0 +1,4 @@
+env: flex
+entrypoint: gunicorn -b:$PORTL main:app
+runtime: python
+
